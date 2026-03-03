@@ -70,4 +70,30 @@ Generate optimized build:
 
 npm run build
 
+
+Production files will be created inside the `dist/` directory.
+
+---
+
+## 🎯 Key Highlights
+
+✔ Clean corporate UI  
+✔ Modular & maintainable structure  
+✔ Responsive layout  
+✔ Optimized bundle output  
+✔ Professional project organization  
+
+---
+
+## 👨‍💻 Author
+
+**Amey Avasthi**  
+Frontend Developer | Data Analyst | AI Systems  
+
+GitHub: https://github.com/Ameyavasthi  
+LinkedIn: https://www.linkedin.com/in/amey-avasthi-700745257  
+
+---
+
+
 ## 📁 Project Structure
