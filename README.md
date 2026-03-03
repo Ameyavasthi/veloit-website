@@ -30,5 +30,44 @@ The goal was to build a premium corporate web presence with strong technical fou
 - Git & GitHub
 
 ---
+## 📁 Project Structure
+
+src/
+ ├── components/
+ ├── pages/
+ ├── styles/
+ └── main.tsx
+
+public/
+
+index.html
+vite.config.ts
+tsconfig.json
+package.json
+
+
+---
+
+## ⚙️ Local Development
+
+Clone the repository:
+git clone https://github.com/Ameyavasthi/veloit-website.git
+cd veloit-website
+
+Install dependencies:
+npm install
+
+
+Start development server:
+npm run dev
+
+
+---
+
+## 📦 Production Build
+
+Generate optimized build:
+
+npm run build
 
 ## 📁 Project Structure
