@@ -33,10 +33,10 @@ The goal was to build a premium corporate web presence with strong technical fou
 ## 📁 Project Structure
 
 src/
- ├── components/
- ├── pages/
- ├── styles/
- └── main.tsx
+├── components/
+├── pages/
+├── styles/
+└── main.tsx
 
 public/
 
