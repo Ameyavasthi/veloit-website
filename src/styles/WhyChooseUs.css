@@ -1,0 +1,50 @@
+.why-section {
+    background-color: var(--bg-dark);
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 3rem auto 0;
+}
+
+.why-card {
+    padding: 3rem 2.5rem;
+    transition: background var(--transition-normal), transform var(--transition-normal), border-color var(--transition-normal);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-left: 2px solid rgba(0, 240, 255, 0.2);
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.4), rgba(5, 5, 5, 0.7));
+    opacity: 0; /* For scroll animation */
+}
+
+.why-card:hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-left-color: var(--accent-cyan);
+    transform: translateX(5px);
+}
+
+.why-icon {
+    margin-bottom: 1.2rem;
+    color: var(--accent-cyan);
+}
+
+.why-title {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 0.8rem;
+}
+
+.why-desc {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
